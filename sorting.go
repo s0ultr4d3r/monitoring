@@ -24,6 +24,7 @@ func sortOldConf() []Prblm {
 	oldConfSlc := sortPrblm(ramSrvSlc(), "old config")
 	return oldConfSlc
 }
+
 func sortFreeSpace() []Prblm {
 	freeSpaceSlc := sortPrblm(ramSrvSlc(), "disk")
 	return freeSpaceSlc
